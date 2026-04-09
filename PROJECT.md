@@ -7,14 +7,15 @@ Membangun POS backend dengan DDD, clean workflow, dan production-ready per fitur
 - Product (Inventory)
 
 ## ✅ DONE
+- [x] Init Go module
 - [x] Setup project
+- [x] Setup Gin server
+- [x] Create Product Entity (domain)
 
 ## 🔄 IN PROGRESS
-- [ ] -
-
+- [ ] Create Product Repository interface
 ## ⏭️ NEXT
-- [x] Init Go module
-- [x] Setup Gin server
+- [ ] Create CreateProduct usecase
 
 ## 🧠 NOTES
 - Semua logic harus mulai dari domain

@@ -1,4 +1,3 @@
 Next:
-- go mod init
-- install gin
-- buat main.go
+- buat ProductRepository interface
+- mulai usecase CreateProduct
