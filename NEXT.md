@@ -1,3 +1,3 @@
 Next:
-- buat ProductRepository interface
-- mulai usecase CreateProduct
+- implement repository pakai GORM
+- mapping domain ↔ database

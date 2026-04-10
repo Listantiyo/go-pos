@@ -11,11 +11,15 @@ Membangun POS backend dengan DDD, clean workflow, dan production-ready per fitur
 - [x] Setup project
 - [x] Setup Gin server
 - [x] Create Product Entity (domain)
+- [x] Product Entity
+- [x] Repository Interface
+- [x] Create Product Use Case
+- [x] Get Products Use Case
 
 ## 🔄 IN PROGRESS
-- [ ] Create Product Repository interface
+
 ## ⏭️ NEXT
-- [ ] Create CreateProduct usecase
+- [ ] Implement repository (GORM)
 
 ## 🧠 NOTES
 - Semua logic harus mulai dari domain

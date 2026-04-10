@@ -1,6 +1,6 @@
 package product
 
-type ProductRespository interface {
+type Repository interface {
 	Save(product *Product) error
 	FindAll() ([]Product, error)
 }
