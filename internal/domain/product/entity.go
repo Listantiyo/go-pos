@@ -41,3 +41,19 @@ func (p *Product) ReduceStock(qty int) error {
 	p.stock -= qty
 	return nil
 }
+
+func (p Product) ID() string {
+	return p.id
+}
+
+func (p Product) Name() string {
+	return p.name 
+}
+
+func (p Product) Price() int {
+	return p.price
+}
+
+func (p Product) Stock() int {
+	return p.stock
+}

@@ -7,20 +7,25 @@ Membangun POS backend dengan DDD, clean workflow, dan production-ready per fitur
 - Product (Inventory)
 
 ## ✅ DONE
-- [x] Init Go module
 - [x] Setup project
-- [x] Setup Gin server
-- [x] Create Product Entity (domain)
-- [x] Product Entity
+- [x] Gin server
+- [x] Product Entity (Domain)
 - [x] Repository Interface
-- [x] Create Product Use Case
-- [x] Get Products Use Case
+- [x] Use Case (Create & Get Product)
+- [x] Repository Implementation (GORM)
+- [x] Database connection & migration
 
 ## 🔄 IN PROGRESS
+- [ ] Delivery Layer (HTTP Handler & Router)
 
 ## ⏭️ NEXT
-- [ ] Implement repository (GORM)
+- [ ] Test API (manual: Postman / curl)
+- [ ] Tambahkan response DTO (jangan expose domain langsung)
+- [ ] Error handling yang lebih rapi
 
 ## 🧠 NOTES
 - Semua logic harus mulai dari domain
 - Jangan loncat ke handler
+- Domain tidak boleh kena JSON / HTTP
+- Mapping domain ↔ DB sudah aman
+- Usecase tetap bersih tanpa dependency luar
